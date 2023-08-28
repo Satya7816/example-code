@@ -1,0 +1,64 @@
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 1px 0;
+    text-align: left;
+    display: flex;
+  }
+  
+  
+  .division {
+    box-sizing: border-box;
+    padding: 20px;
+  }
+  
+  .division:nth-child(1) {
+    flex: 2; 
+    background-color: #6789BB; 
+  }
+  
+  .division:nth-child(2),
+  .division:nth-child(3) {
+    flex: 1; 
+  }
+  
+  .division:nth-child(2) {
+    background-color: #4B6488;
+  }
+  
+  .division:nth-child(3) {
+    background-color: #2D3B51; 
+  }
+  
+  .App {
+    text-align: center;
+    padding: 0px;
+    
+  }
+  
+  .navbar {
+    background-color:#6B90BF;
+    color: white;
+    padding: 15px;
+    text-align:left;
+  }
+  
+
+
+  /* Navbar.css */
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .division:nth-child(1) {
+    flex: 1;
+  }
+  
+  .division:nth-child(2),
+  .division:nth-child(3) {
+    flex: 1;
+  }
+}
+
